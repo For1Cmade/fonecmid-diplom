@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6c1250a8-71af-4e94-83ac-a617606ee96f">
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="62d4cd45-f395-42bd-ae2a-a3142fd00141">
   <producedTypes>
-    <selectionType typeId="cd1692ee-c3a0-4c51-9175-3fb7d2f50d42" valueTypeId="afda6c25-0e12-45dd-b936-60b4f5080d4a"/>
-    <listType typeId="d0fb7148-6d7c-446e-8ffa-eeb25d3f1244" valueTypeId="ff80f5e9-1736-4e22-9a08-7e86327fdf3f"/>
-    <managerType typeId="c12e0a1f-7c15-4e37-94ee-9f071db9a5b0" valueTypeId="995d5007-f0f5-462b-be94-602c17cd0934"/>
-    <recordSetType typeId="a24311ca-2f4a-4917-8f04-38477bb4d42c" valueTypeId="1a56bae2-419b-4675-b19f-7dc2dec14815"/>
-    <recordKeyType typeId="7528e4e8-1523-40ef-9376-bf8121f89b33" valueTypeId="0faef150-fdb8-4348-b093-87455f5d3826"/>
-    <recordType typeId="a33ffaf9-75a5-4feb-8f56-9d7afdec94ae" valueTypeId="c41015a5-1441-4230-ade3-9dd58fe7b80e"/>
-    <recordManagerType typeId="e7ab9c58-71ff-492c-be0c-67f3499fb9f7" valueTypeId="da23193b-c842-4899-aeec-f9b2004ca99d"/>
+    <selectionType typeId="2914d25b-175a-41ad-a250-2cde776b8a3a" valueTypeId="1885e14b-72f8-4dee-922f-bafe4faa1e37"/>
+    <listType typeId="2394059d-8787-4773-a030-8d85713a3252" valueTypeId="36716e54-155e-407c-a877-16cfccb9a0a6"/>
+    <managerType typeId="5ba85712-374a-4de5-bc59-dbddbab40339" valueTypeId="0bfb137b-f671-4163-944b-b8bffced8d42"/>
+    <recordSetType typeId="31622b5f-7af1-4a57-aa20-a8cf5a6eb02a" valueTypeId="861587a7-b701-459f-aa88-fddfa3bdb1fd"/>
+    <recordKeyType typeId="78884324-f221-401e-9145-b89f6eef77b8" valueTypeId="9ea8893e-7d63-469a-bb10-05b100a0f13e"/>
+    <recordType typeId="cefcaae9-7581-46db-bdd1-bf6e88eb9bd0" valueTypeId="59ea915e-023c-400e-be0f-d6a402576cc9"/>
   </producedTypes>
   <name>ВКМ_ВыполненныеКлиентуРаботы</name>
   <synonym>
@@ -15,13 +14,9 @@
     <value>Выполненные клиенту работы</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <editType>InDialog</editType>
   <dataLockControlMode>Managed</dataLockControlMode>
-  <recordPresentation>
-    <key>ru</key>
-    <value>Выполненные клиенту работы</value>
-  </recordPresentation>
-  <resources uuid="bb4ef5c2-c15f-4cb8-a59a-3723a872dba0">
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="b2180c35-5ded-4e23-8565-68f6b9079d6c">
     <name>КоличествоЧасов</name>
     <synonym>
       <key>ru</key>
@@ -37,10 +32,8 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
-  <resources uuid="fe0faba4-5b8e-4e95-8a10-42c2381297a4">
+  <resources uuid="2e4dbcb2-6a48-4764-83bc-7e4f89527102">
     <name>СуммаКОплате</name>
     <synonym>
       <key>ru</key>
@@ -56,10 +49,8 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
-  <dimensions uuid="1c4f7ccf-c44e-498b-b450-c00fce0a89ae">
+  <dimensions uuid="64918179-141f-4740-97e8-d6c2154720f1">
     <name>Клиент</name>
     <synonym>
       <key>ru</key>
@@ -71,11 +62,9 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <mainFilter>true</mainFilter>
+    <useInTotals>true</useInTotals>
   </dimensions>
-  <dimensions uuid="a880974c-614f-41b6-b85d-8103772dcdbc">
+  <dimensions uuid="e9aa66ed-5b4a-4599-a7db-b5ca52ffd684">
     <name>Договор</name>
     <synonym>
       <key>ru</key>
@@ -87,8 +76,6 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <mainFilter>true</mainFilter>
+    <useInTotals>true</useInTotals>
   </dimensions>
-</mdclass:InformationRegister>
+</mdclass:AccumulationRegister>

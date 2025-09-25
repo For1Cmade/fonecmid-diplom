@@ -110,7 +110,6 @@
   <owners>Catalog.Контрагенты</owners>
   <codeLength>9</codeLength>
   <descriptionLength>150</descriptionLength>
-  <codeType>String</codeType>
   <codeAllowedLength>Variable</codeAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
@@ -154,10 +153,10 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="23434380-c760-4fdf-8edf-3afaf0a95d6a">
-    <name>ВКМ_ПериодДействия</name>
+    <name>ВКМ_ПериодДействияНачало</name>
     <synonym>
       <key>ru</key>
-      <value>Период действия договора</value>
+      <value>Период действия договора (начало)</value>
     </synonym>
     <type>
       <types>Date</types>
@@ -202,6 +201,24 @@
         <precision>10</precision>
         <scale>2</scale>
       </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="604ca59d-45f1-4677-9b34-799949eba25a">
+    <name>ВКМ_ПериодДействияКонец</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период действия договора (конец)</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

@@ -5,7 +5,7 @@
     <valueManagerType typeId="23b7cf61-9997-47f2-b5c0-e381a640f325" valueTypeId="6b5730e1-511d-4297-b8de-6c5092b8ea32"/>
     <valueKeyType typeId="ab46adbc-9ebe-4397-b4e1-fd38ae0180e1" valueTypeId="01a43bfd-5437-40d4-a388-7cfc3decfad2"/>
   </producedTypes>
-  <name>НоменклатураРаботыСпециалиста</name>
+  <name>ВКМ_НоменклатураРаботыСпециалиста</name>
   <synonym>
     <key>ru</key>
     <value>Номенклатура работы специалиста</value>

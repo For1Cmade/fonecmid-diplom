@@ -36,4 +36,6 @@
   <content>DataProcessor.BKM_ЗаполнениеГрафикаРабот</content>
   <content>AccumulationRegister.ВКМ_ВзаиморасчетыССотрудниками</content>
   <content>Document.BKM_ВыплатаЗарплаты</content>
+  <content>Document.BKM_ГрафикОтпусков</content>
+  <content>InformationRegister.BKM_СведенияОбОтпусках</content>
 </mdclass:Subsystem>

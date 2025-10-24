@@ -40,4 +40,5 @@
   <content>InformationRegister.BKM_СведенияОбОтпусках</content>
   <content>Catalog.ВКМ_Подразделения</content>
   <content>Role.ВКМ_КадровикРасчетчик</content>
+  <content>Report.ВКМ_ВыработкаСпециалистов</content>
 </mdclass:Subsystem>

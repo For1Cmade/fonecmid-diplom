@@ -16,4 +16,5 @@
   <content>ScheduledJob.ВКМ_ОтправкаИУдалениеСообщенийТГ</content>
   <content>Catalog.ВКМ_Сотрудники</content>
   <content>DataProcessor.ВКМ_МассовоеСозданиеАктов</content>
+  <content>Report.ВКМ_ВыработкаСпециалистов</content>
 </mdclass:Subsystem>

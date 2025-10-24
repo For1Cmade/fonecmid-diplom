@@ -39,4 +39,5 @@
   <content>Document.BKM_ГрафикОтпусков</content>
   <content>InformationRegister.BKM_СведенияОбОтпусках</content>
   <content>Catalog.ВКМ_Подразделения</content>
+  <content>Role.ВКМ_КадровикРасчетчик</content>
 </mdclass:Subsystem>

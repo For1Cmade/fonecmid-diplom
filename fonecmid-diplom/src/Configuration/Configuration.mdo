@@ -1055,6 +1055,12 @@
   <commandGroups>CommandGroup.Информация</commandGroups>
   <commandGroups>CommandGroup.Органайзер</commandGroups>
   <commandGroups>CommandGroup.Печать</commandGroups>
+  <commandGroups>CommandGroup.ВКМ_Документы</commandGroups>
+  <commandGroups>CommandGroup.ВКМ_Справочники</commandGroups>
+  <commandGroups>CommandGroup.ВКМ_РегистрыСведений</commandGroups>
+  <commandGroups>CommandGroup.ВКМ_РегистрыНакопления</commandGroups>
+  <commandGroups>CommandGroup.ВКМ_РегистрыРасчетов</commandGroups>
+  <commandGroups>CommandGroup.ВКМ_Обработки</commandGroups>
   <constants>Constant.АвтоматическиНастраиватьРазрешенияВПрофиляхБезопасности</constants>
   <constants>Constant.АдресПубликацииИнформационнойБазыВИнтернете</constants>
   <constants>Constant.ГлавныйУзел</constants>
@@ -1231,6 +1237,7 @@
   <catalogs>Catalog.ВКМ_УведомленияТелеграмБоту</catalogs>
   <catalogs>Catalog.ВКМ_Сотрудники</catalogs>
   <catalogs>Catalog.ВКМ_ГрафикиРабот</catalogs>
+  <catalogs>Catalog.ВКМ_Подразделения</catalogs>
   <documents>Document.ЗаказПокупателя</documents>
   <documents>Document.ОплатаОтПокупателя</documents>
   <documents>Document.ОплатаПоставщику</documents>

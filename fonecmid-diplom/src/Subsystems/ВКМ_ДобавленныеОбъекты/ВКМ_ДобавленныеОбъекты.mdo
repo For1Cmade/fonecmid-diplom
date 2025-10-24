@@ -38,4 +38,5 @@
   <content>Document.BKM_ВыплатаЗарплаты</content>
   <content>Document.BKM_ГрафикОтпусков</content>
   <content>InformationRegister.BKM_СведенияОбОтпусках</content>
+  <content>Catalog.ВКМ_Подразделения</content>
 </mdclass:Subsystem>

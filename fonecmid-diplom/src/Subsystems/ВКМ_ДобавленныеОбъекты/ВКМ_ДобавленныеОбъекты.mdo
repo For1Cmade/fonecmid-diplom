@@ -41,4 +41,8 @@
   <content>Catalog.ВКМ_Подразделения</content>
   <content>Role.ВКМ_КадровикРасчетчик</content>
   <content>Report.ВКМ_ВыработкаСпециалистов</content>
+  <content>Report.BKM_АнализВыставленныхАктов</content>
+  <content>Report.BKM_РасчётыССотрудниками</content>
+  <content>Report.BKM_РасходЗапланированныхОтпусков</content>
+  <content>Constant.BKM_ГрафикОтпуска</content>
 </mdclass:Subsystem>

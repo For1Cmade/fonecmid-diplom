@@ -630,6 +630,7 @@
   <roles>Role.ВКМ_Специалист</roles>
   <roles>Role.ВКМ_Менеджер</roles>
   <roles>Role.ВКМ_Бухгалтер</roles>
+  <roles>Role.ВКМ_КадровикРасчетчик</roles>
   <commonTemplates>CommonTemplate.ДанныеПечатиОбщиеРеквизиты</commonTemplates>
   <commonTemplates>CommonTemplate.ДанныеПечатиРегистрСимволов</commonTemplates>
   <commonTemplates>CommonTemplate.ИнструкцияКакВыполнитьНастройкуМакетаOfficeOpen</commonTemplates>
@@ -1131,6 +1132,7 @@
   <constants>Constant.ВКМ_ИдентификаторГруппыДляОповещения</constants>
   <constants>Constant.ВКМ_НоменклатураАбонентскаяПлата</constants>
   <constants>Constant.ВКМ_НоменклатураРаботыСпециалиста</constants>
+  <constants>Constant.BKM_ГрафикОтпуска</constants>
   <commonForms>CommonForm.БлокировкаРаботыСВнешнимиРесурсами</commonForms>
   <commonForms>CommonForm.ВводЗначенийСпискомСФлажками</commonForms>
   <commonForms>CommonForm.Вопрос</commonForms>
@@ -1309,6 +1311,10 @@
   <reports>Report.ПрогрессОтложенногоОбновления</reports>
   <reports>Report.СведенияОПользователях</reports>
   <reports>Report.УниверсальныйОтчет</reports>
+  <reports>Report.ВКМ_ВыработкаСпециалистов</reports>
+  <reports>Report.BKM_АнализВыставленныхАктов</reports>
+  <reports>Report.BKM_РасчётыССотрудниками</reports>
+  <reports>Report.BKM_РасходЗапланированныхОтпусков</reports>
   <dataProcessors>DataProcessor.АвтоматическоеИзвлечениеТекстов</dataProcessors>
   <dataProcessors>DataProcessor.ВводКонтактнойИнформации</dataProcessors>
   <dataProcessors>DataProcessor.ГрупповоеИзменениеРеквизитов</dataProcessors>

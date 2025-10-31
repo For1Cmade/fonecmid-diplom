@@ -211,6 +211,10 @@
           <dataPath xsi:type="form:DataPath">
             <segments>Объект.ОсновныеНачисления.ВидРасчета</segments>
           </dataPath>
+          <handlers>
+            <event>OnChange</event>
+            <name>ОсновныеНачисленияВидРасчетаПриИзменении</name>
+          </handlers>
           <extendedTooltip>
             <name>ОсновныеНачисленияВидРасчетаРасширеннаяПодсказка</name>
             <id>32</id>
@@ -889,6 +893,10 @@
     <commandBar/>
   </commandInterface>
   <extInfo xsi:type="form:DocumentFormExtInfo">
+    <handlers>
+      <event>BeforeWrite</event>
+      <name>ПередЗаписью</name>
+    </handlers>
     <repostOnWrite>true</repostOnWrite>
   </extInfo>
 </form:Form>

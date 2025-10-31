@@ -27,4 +27,7 @@
   <content>InformationRegister.BKM_СведенияОбОтпусках</content>
   <content>Role.ВКМ_КадровикРасчетчик</content>
   <content>Report.ВКМ_ВыработкаСпециалистов</content>
+  <content>Report.BKM_РасчётыССотрудниками</content>
+  <content>Report.BKM_РасходЗапланированныхОтпусков</content>
+  <content>Constant.BKM_ГрафикОтпуска</content>
 </mdclass:Subsystem>

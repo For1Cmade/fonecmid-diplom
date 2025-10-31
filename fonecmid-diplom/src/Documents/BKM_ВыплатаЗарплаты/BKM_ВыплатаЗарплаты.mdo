@@ -25,6 +25,7 @@
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.BKM_ВыплатаЗарплаты.Form.ФормаДокумента</defaultObjectForm>
   <defaultListForm>Document.BKM_ВыплатаЗарплаты.Form.ФормаСписка</defaultListForm>
+  <registerRecords>AccumulationRegister.ВКМ_ВзаиморасчетыССотрудниками</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="22e632a1-afb0-457d-a7ea-aea0af406639">

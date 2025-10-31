@@ -45,4 +45,5 @@
   <content>Report.BKM_РасчётыССотрудниками</content>
   <content>Report.BKM_РасходЗапланированныхОтпусков</content>
   <content>Constant.BKM_ГрафикОтпуска</content>
+  <content>Report.ВКМ_СлужебныйДляПроверки</content>
 </mdclass:Subsystem>

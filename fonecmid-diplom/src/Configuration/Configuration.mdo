@@ -1315,6 +1315,7 @@
   <reports>Report.BKM_АнализВыставленныхАктов</reports>
   <reports>Report.BKM_РасчётыССотрудниками</reports>
   <reports>Report.BKM_РасходЗапланированныхОтпусков</reports>
+  <reports>Report.ВКМ_СлужебныйДляПроверки</reports>
   <dataProcessors>DataProcessor.АвтоматическоеИзвлечениеТекстов</dataProcessors>
   <dataProcessors>DataProcessor.ВводКонтактнойИнформации</dataProcessors>
   <dataProcessors>DataProcessor.ГрупповоеИзменениеРеквизитов</dataProcessors>

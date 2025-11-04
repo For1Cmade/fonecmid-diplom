@@ -748,6 +748,17 @@
 		</right>
 	</object>
 	<object>
+		<name>Report.BKM_АнализВыставленныхАктов</name>
+		<right>
+			<name>Use</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Document.ОплатаОтПокупателя</name>
 		<right>
 			<name>Read</name>

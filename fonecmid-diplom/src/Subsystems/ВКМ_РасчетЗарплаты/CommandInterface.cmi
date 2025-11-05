@@ -9,7 +9,6 @@
     <placementFragments>
       <group>CommandGroup.ВКМ_РегистрыРасчетов</group>
       <commands>CalculationRegister.ВКМ_ДополнительныеНачисления.StandardCommand.OpenList</commands>
-      <commands>CalculationRegister.ВКМ_ОсновныеНачисления.StandardCommand.OpenList</commands>
       <commands>CalculationRegister.ВКМ_Удержания.StandardCommand.OpenList</commands>
       <commands>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления.StandardCommand.OpenList</commands>
       <commands>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.StandardCommand.OpenList</commands>
@@ -43,7 +42,6 @@
     <orderFragments>
       <group>CommandGroup.ВКМ_РегистрыРасчетов</group>
       <commands>CalculationRegister.ВКМ_ДополнительныеНачисления.StandardCommand.OpenList</commands>
-      <commands>CalculationRegister.ВКМ_ОсновныеНачисления.StandardCommand.OpenList</commands>
       <commands>CalculationRegister.ВКМ_Удержания.StandardCommand.OpenList</commands>
       <commands>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления.StandardCommand.OpenList</commands>
       <commands>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.StandardCommand.OpenList</commands>

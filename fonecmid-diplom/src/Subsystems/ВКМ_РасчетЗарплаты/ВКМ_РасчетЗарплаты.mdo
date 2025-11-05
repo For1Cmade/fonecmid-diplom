@@ -17,7 +17,6 @@
   <content>AccumulationRegister.ВКМ_ВыполненныеСотрудникомРаботы</content>
   <content>Document.ВКМ_НачисленияЗарплаты</content>
   <content>Catalog.ВКМ_ГрафикиРабот</content>
-  <content>CalculationRegister.ВКМ_ОсновныеНачисления</content>
   <content>Document.ВКМ_НачислениеФиксированнойПремии</content>
   <content>InformationRegister.ВКМ_ГрафикиРабот</content>
   <content>DataProcessor.BKM_ЗаполнениеГрафикаРабот</content>
@@ -30,4 +29,5 @@
   <content>Report.BKM_РасчётыССотрудниками</content>
   <content>Report.BKM_РасходЗапланированныхОтпусков</content>
   <content>Constant.BKM_ГрафикОтпуска</content>
+  <content>CalculationRegister.ВКМ_ОсновныеНачисления</content>
 </mdclass:Subsystem>

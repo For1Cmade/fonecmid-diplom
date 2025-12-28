@@ -14,4 +14,8 @@
   <content>Constant.ВКМ_ИдентификаторГруппыДляОповещения</content>
   <content>Catalog.ВКМ_УведомленияТелеграмБоту</content>
   <content>ScheduledJob.ВКМ_ОтправкаИУдалениеСообщенийТГ</content>
+  <content>Catalog.ВКМ_Сотрудники</content>
+  <content>DataProcessor.ВКМ_МассовоеСозданиеАктов</content>
+  <content>Report.ВКМ_ВыработкаСпециалистов</content>
+  <content>Report.BKM_АнализВыставленныхАктов</content>
 </mdclass:Subsystem>
